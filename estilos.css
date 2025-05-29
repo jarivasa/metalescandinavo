@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url("fondofinal.jpg") repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+a {
+  color: red;
+}
+
+
+.tabla-GRUPOS {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: black;
+  color: red;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.tabla-GRUPOS th,
+.tabla-GRUPOS td {
+  border: 1px solid darkred;
+  padding: 8px;
+  text-align: center;
+}
+
+.tabla-GRUPOS thead {
+  background-color: #330000;
+}
+
+.tabla-GRUPOS tr:hover {
+  background-color: #220000;
+}
+
+
+.boton-volver {
+  display: inline-block;
+  background-color: black;
+  color: red;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid red;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-volver:hover {
+  background-color: red;
+  color: black;
+}
