@@ -55,3 +55,85 @@ a {
   background-color: red;
   color: black;
 }
+
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111;
+  padding: 10px 0;
+  z-index: 1000;
+  text-align: center;
+  border-bottom: 1px solid darkred;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+
+form.formulario {
+  background-color: #111;
+  color: #ddd;
+  padding: 20px;
+  border: 1px solid #440000;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.formulario label,
+.formulario p {
+  color: #aa4444;
+  font-size: 15px;
+}
+
+.formulario input[type="text"],
+.formulario textarea,
+.formulario select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  background-color: #1a1a1a;
+  color: #f2f2f2;
+  border: 1px solid #333;
+}
+
+.formulario input[type="radio"] {
+  margin-right: 5px;
+}
+
+.formulario button,
+.formulario input[type="reset"] {
+  background-color: #440000;
+  color: #f2f2f2;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.formulario button:hover,
+.formulario input[type="reset"]:hover {
+  background-color: #660000;
+}

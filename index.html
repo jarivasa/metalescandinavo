@@ -7,6 +7,14 @@
 </head>
 
 <body>
+<nav class="menu">
+<ul>
+<li>	<a href="index.html">Inicio</a></li>
+	<li><a href="noruega.html">Noruega</a></li>
+	<li><a href="suecia.html">Suecia</a></li>
+	<li><a href="formulario.html">Opinión</a></li>
+</ul>
+</nav>
 	<section>
 	<h2>BLACK METAL Y SUS AMIGOS</h2> </section>
 <p>
@@ -26,7 +34,7 @@ Desde las profundidades gélidas de Noruega surgieron nombres que marcaron el ro
 </p>
 
 <ul>
-	<li>Noruega
+	<li><a href="noruega.html">NORUEGA</a>
 	<ul>
 		<li><a href="burzum.html">BURZUM</a>
 		<li><a href="darkthrone.html">DARKTHRONE</a>
@@ -34,7 +42,7 @@ Desde las profundidades gélidas de Noruega surgieron nombres que marcaron el ro
 	</ul>
  	</li>
 
-	<li>Suecia
+	<li><a href="suecia.html">SUECIA</a>
 	<ul>
 		<li><a href="bathory.html">BATHORY</a>
 		<li><a href="isengard.html">ISENGARD</a>
@@ -42,41 +50,15 @@ Desde las profundidades gélidas de Noruega surgieron nombres que marcaron el ro
 	</ul>
 	</li>
 
+	<li><a href="formulario.html">Deja tu opinión</a>
+	</li>
 
 </ul>
 
 <br>
 <br>
 
-<section id="opinion-form">
-<h2>Tu opinión importa</h2>
-<p>Queremos saber qué piensas sobre esta página y el black metal. Completa el formulario y haz que tu voz resuene en esta caverna sonora.</p>
 
-<form action="/enviar-opinion" method="POST">
-	<label for="nombre">Nombre:</label><br>
-	<input type="text" id="nombre" name="nombre"><br><br>
-
-	<label for="opinion">¿Qué te ha parecido esta página?</label><br>
-	<textarea id="opinion" name="opinion" rows="4" cols="50" required></textarea><br><br>
-
-    <label for="favorito">¿Qué grupo te ha gustado más?</label><br>
-    <select id="favorito" name="favorito" required>
-      <option value="">-- Elige uno --</option>
-      <option value="Burzum">Burzum</option>
-      <option value="Darkthrone">Darkthrone</option>
-      <option value="Mayhem">Mayhem</option>
-      <option value="Bathory">Bathory</option>
-      <option value="Isengard">Isengard</option>
-      <option value="In Flames">In Flames</option>
-    </select><br><br>
-
-    <label for="mejoras">¿Qué mejorarías de esta página?</label><br>
-    <textarea id="mejoras" name="mejoras" rows="3" cols="50"></textarea><br><br>
-
-    <button type="submit">Enviar</button>
-    
-</form>
-</section>
 
 </body>
 </html>
